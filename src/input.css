@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+    --font-customFont: "Playfair Display", "serif";
+    --color-myBG: #2F3C7E; 
+    --color-bg2: #CADCFC;
+  }
