@@ -6,7 +6,7 @@
     <title>DOM</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Darker+Grotesque:wght@300..900&family=Doto:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Darker+Grotesque:wght@300..900&family=Doto:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lugrasimo&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="src/output.css">
@@ -18,7 +18,16 @@
 
     <div class="bg-bg2 py-[100px] text-center">
         <h1 class="font-customFont text-[30px] pb-[20px] head2">Click The Button to change the Color of this text and make it bold.</h1>
-        <button class="btn btn-neutral btn-dash text-[20px] butt12">Click</button>
+        <!-- <button class="btn btn-neutral btn-dash text-[20px] butt12">Click</button> -->
+        <br>
+        <div class="tooltip">
+            <div class="tooltip-content">
+              <div class="animate-bounce text-orange-400 -rotate-10 text-2xl font-black">Etake Bole DOM!</div>
+            </div>
+            <span class="loading loading-ring loading-xl"></span>
+            <button class="btn butt12">Hover And Then Click Me</button>
+            <span class="loading loading-ring loading-xl"></span>
+          </div>
     </div>
     <script src="js/script.js"></script>
 </body>
