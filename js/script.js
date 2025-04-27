@@ -11,7 +11,7 @@ let head3 = document.querySelector(".head2")
 let butt12 = document.querySelector(".butt12")
 
 butt12.addEventListener("click", function(){
-    head3.style.color = "black"
+    head3.style.color = "blue"
     head3.style.fontWeight = "bold"
     head3.style.fontFamily = "Lugrasimo"
 })
