@@ -16,3 +16,9 @@ butt12.addEventListener("click", function(){
     head3.style.fontFamily = "Lugrasimo"
 })
 
+let back2 = document.querySelector(".backChange")
+let changeTheBack = document.querySelector(".changeTheBack")
+
+changeTheBack.addEventListener("click", function(){
+    back2.style.backgroundColor = "mediumseagreen"
+})
